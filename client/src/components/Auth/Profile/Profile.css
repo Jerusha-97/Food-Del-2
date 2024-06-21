@@ -1,0 +1,67 @@
+.profile-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 10px; /* Spacing between columns */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .update-button {
+    padding: 5px;
+    background-color: #fd7e14;;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-button:hover {
+    background-color: #ff9b4a;;
+  }
+
+  /* Profile.css */
+
+/* Container for Add Address and Remove buttons */
+.address-button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+  }
+  
+  /* Style for Remove button */
+  .remove-button {
+    background-color: #ff804a;
+    margin: 15px;
+    width: 20%;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Style for Add Address button */
+  .add-address-button {
+    background-color: rgb(251, 174, 73);
+    width: 20%;
+    margin: 10px 0px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  

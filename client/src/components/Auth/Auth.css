@@ -1,0 +1,82 @@
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-top: 10%;
+}
+
+.auth-container {
+    background: white;
+    
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth-title h2 {
+    margin-bottom: 1rem;
+}
+
+.auth-inputs {
+    width: 100%;
+}
+
+.auth-inputs input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 60%;
+    padding: 0.5rem;
+    background: rgb(255, 163, 71);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.log{
+    width: 100%;
+}
+
+/* button:hover {
+    background: rgb(255, 55, 20);
+    box-shadow: rgb(255, 129, 106) 3px 3px 12px;
+} */
+
+
+.auth-condition {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.auth-condition p {
+    margin-left: 0.5rem;
+}
+
+.auth-container p {
+    font-size: 0.9rem;
+}
+
+.auth-container p span {
+    color: rgb(255, 163, 71);
+    cursor: pointer;
+}
+
+.auth-container p span:hover {
+    text-decoration: underline;
+}
+.custom-link {
+    text-decoration: underline;
+    color: rgb(255, 151, 71);
+}

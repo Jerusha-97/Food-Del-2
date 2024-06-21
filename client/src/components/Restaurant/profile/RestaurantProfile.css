@@ -1,0 +1,45 @@
+/* RestaurantProfile.css */
+
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+.profile-container h2 {
+    margin-bottom: 20px;
+}
+
+.profile-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.profile-container p {
+    margin: 10px 0;
+}
+
+.profile-container p strong {
+    display: block;
+    font-weight: bold;
+}
+
+.profile{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}

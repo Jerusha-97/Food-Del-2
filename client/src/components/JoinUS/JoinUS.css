@@ -1,0 +1,164 @@
+.join-us-body {
+    background-color: #F0F0F5;
+    margin: 0;
+}
+
+.stepper {
+    display: flex;
+}
+
+.steps-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 40px 0px;
+    position: relative;
+}
+
+.progress-container {
+    position: relative;
+    /* width: 1px; */
+    /* height: 22.5%; */
+    width: 400px;
+    padding: 20px;
+    border: dashed 1px gray;
+    border-radius: 20px;
+    background-color: rgb(253, 244, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.progress-line {
+    position: absolute;
+    top: 35px;
+    /* bottom: -10px; */
+    width: 3px;
+    background: rgba(0, 128, 0, 0.5);
+    left:10%;
+    z-index: 0;
+    transition: height 0.3s ease;
+}
+.steps-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 0;
+}
+
+.step-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.steps {
+    width: 45px;
+    height: 45px;
+    box-shadow: 0px 0px 16px rgb(48, 255, 1);
+    border-radius: 50%;
+    background-color: rgb(255, 118, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.steps.active {
+    background-color: green;
+    color: white;
+}
+
+.steps.completed {
+    background-color: green;
+}
+
+.steps.completed::after {
+    /* content: '✓'; */
+    font-size: 20px;
+    color: white;
+}
+
+.step-label {
+    text-align: left;
+}
+
+.step-label .bold {
+    font-weight: bold;
+}
+
+.step-content {
+    flex: 2;
+    margin-left: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container2 {
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+}
+
+.congrats-message {
+    padding: 20px;
+    background-color: lightgreen;
+    border-radius: 5px;
+    box-shadow: rgb(183, 183, 184) 4px 4px 12px;
+    margin: 40px 0px;
+}
+
+.step-btn-prev {
+    width: 20%;
+}
+
+.res-checkbox input {
+    margin: 20px 40px;
+}
+
+.step-btn {
+    width: 40%;
+    float: right;
+}
+
+.step-btn:active {
+    background-color: green;
+}
+
+h3 {
+    color: rgb(112, 112, 112);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.res-details {
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.input-box {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.res-details label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.res-details input[type="checkbox"] {
+    margin-right: 5px;
+}

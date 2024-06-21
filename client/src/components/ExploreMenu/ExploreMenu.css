@@ -1,0 +1,72 @@
+.explore-Menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.explore-Menu h1{
+    color: #262626;
+    font-weight: 500;
+}
+.explore-Menu-text{
+    max-width: 60%;
+    columns: #808080;
+}
+.explore-menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0px;
+        overflow-x: scroll;
+      scroll-behavior: smooth;
+    }
+
+    .explore-menu-list::-webkit-scrollbar {
+      display: none; /* Hide the scrollbar */
+    }
+.explore-menu-list-item img{
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.scroll-buttons {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.scroll-button:hover{
+    background-color: rgb(250, 240, 235);
+    box-shadow: none;
+}
+
+.scroll-button {
+    background-color: rgb(218, 218, 218);
+    border-radius: 45%;
+    color: #000;
+    width: 40px;
+    font-weight: bolder;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: -50px;
+    margin-left: 5px;
+}
+.explore-menu-list-item p{
+    margin-top: 10px;
+    color: #747474;
+    font-size: max(1.4vw 16px);
+    cursor: pointer;
+}
+.explore-Menu hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border:none;
+}
+.explore-menu-list-item .active{
+    border: 4px solid rgb(255, 166, 71);
+    padding: 2px;
+}
